@@ -1,0 +1,7 @@
+The FERET_crop_database is from the source code of PCANet,
+
+(1) download the source code from
+http://mx.nthu.edu.tw/~tsunghan/Source%20codes.html
+
+(2)
+put FERET_crop_database into "image" folder

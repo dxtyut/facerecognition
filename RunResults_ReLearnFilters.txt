@@ -1,0 +1,53 @@
+==================================================================
+				Experiment on Dataset: FERET
+
+     dicmethod: 'pca'
+    activation: 'tanh'
+      poolcode: 'sop'
+      offvalue: 1.0000e-03
+       pyramid: [1 2 4 8]
+        rfSize: [5 9 13]
+     numFilter: [20 20 20]
+
+===================================================================
+********************* Learning M,P,DICT *********************
+	********************* Processing rfsize 5 *********************
+		Start get patches
+		Start mean std and ZCA
+		Start learn dictionary
+	********************* Processing rfsize 9 *********************
+		Start get patches
+		Start mean std and ZCA
+		Start learn dictionary
+	********************* Processing rfsize 13 *********************
+		Start get patches
+		Start mean std and ZCA
+		Start learn dictionary
+
+============= Extracting Feature for Training Set "FA"
+
+============= Learning WPCA
+
+============= Compute acc and accwpca for "FB"
+============= Extracting Feature for Testing Set "FB"
+============= Start Classification for "FB"
+
+============= Compute acc and accwpca for "FC"
+============= Extracting Feature for Testing Set "FC"
+============= Start Classification for "FC"
+
+============= Compute acc and accwpca for "DUP1"
+============= Extracting Feature for Testing Set "DUP1"
+============= Start Classification for "DUP1"
+
+============= Compute acc and accwpca for "DUP2"
+============= Extracting Feature for Testing Set "DUP2"
+============= Start Classification for "DUP2"
+
+
+
+============= Accuracy and Accuracy with WPCA
+   95.8996   97.9381   79.0859   77.3504
+   99.7490  100.0000   97.5069   98.2906
+
+>> 
